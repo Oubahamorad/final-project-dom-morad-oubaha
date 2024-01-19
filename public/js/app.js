@@ -154,6 +154,3 @@
   triggerButton.addEventListener('click', function() {
     myModal.open();
   });
-
-
-  
