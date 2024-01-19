@@ -1,0 +1,760 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./public/css/app.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+          <nav class="navbar d-lg-flex   px-lg-5 g-lg-5 w-100 navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid  w-100 container  ">
+              <a class=" fw-bold " href="#">Lions Resto <span class="text-danger">.</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center  " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="#">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="#">Chefs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Drop Down
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="#">Contact</a>
+                  </li>
+                
+                </ul>
+                
+              </div> 
+             
+                <button type="button" id="trigger" class="btn btn-danger trigger-button  border-danger-subtle rounded-pill "> 
+                    <div id="content">
+                      <div class="wrap_bg">
+                        <div id="main" class="login_wrap singUpActive">
+                            <div class="login_question_wrap">
+                                <div class="question_singUp ">
+                                    <h2 class="title">Don't have an account?</h2>
+                                    <p>Lorem ipsum dolor sit ames
+                                        lorem ipsum dolor sit ames
+                                        lorem ipsum dolor sit ames
+                                        lorem ipsum dolor sit ames
+                                    </p>
+                                    <a href="javascript:void(0)" id="signUpBtn" class="btn btn_rounded">Sing up</a>
+                                </div>
+                                <div class="question_login ">
+                                    <h2 class="title">Have an account?</h2>
+                                    <p>Lorem ipsum dolor sit ames
+                                        lorem ipsum dolor sit ames
+                                        lorem ipsum dolor sit ames
+                                        lorem ipsum dolor sit ames
+                                    </p>
+                                    <a href="javascript:void(0)" id="loginBtn" class="btn btn_rounded">Log in</a>
+                                </div>
+                                <div class="action_singUp">
+                                    <form action="#">
+                                        <fieldset>
+                                            <legend class="title">Sing Up</legend>
+                                            <div class="input_block">
+                                                <div class="input_wrap">
+                                                    <input type="text" id="sing_name" class="input" placeholder="Full Name">
+                                                    <label for="sing_name" class="label_name"></label>
+                                                </div>
+                                                <div class="input_wrap">
+                                                    <input type="text" id="sing_email" class="input" placeholder="Email">
+                                                    <label for="sing_email" class="label_mail"></label>
+                                                </div>
+                                                <div class="input_wrap">
+                                                    <input type="text" id="sing_pass" class="input" placeholder="Password">
+                                                    <label for="sing_pass" class="label_pass"></label>
+                                                </div>
+                                            </div>
+                                            <input type="submit" value="Sing Up" class="btn btn_red">
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <div class="action_login">
+                                    <form action="#">
+                                        <fieldset>
+                                            <legend class="title">Log in</legend>
+                                            <div class="input_block">
+                                                <div class="input_wrap">
+                                                    <input type="text" id="mail" class="input" placeholder="Email">
+                                                    <label for="sing_pass" class="label_mail"></label>
+                                                </div>
+                                                <div class="input_wrap">
+                                                    <input type="text" id="pass" class="input" placeholder="Password">
+                                                    <label for="sing_pass" class="label_pass"></label>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="forgotPass">Forgot password?</a>
+                                            <input type="submit" value="Login" class="btn btn_red">
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="login_action_wrap ">
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                Book a Table </button>
+
+            </div>
+             
+          </nav>
+        </header>
+        <main>
+<!-- section 1 -->
+<section class="section1  bg-body-secondary h-100  d-flex flex-lg-row flex-column-reverse">
+  <div class="d-flex  justify-content-center align-items-start flex-column  p-5 container">
+    <div class=" w-75 ">
+    <h1 class="text-center text-lg-start  ">ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
+  <P class="text-center text-lg-start ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sapiente exercitationem, nesciunt perspiciatis magni accusantium!</P>
+  </div>
+  <div class="d-flex text1">
+    <button type="button" class="btn btn-danger  text1  text-end border-danger-subtle rounded-pill gap-5 w-50 text-center">Book a Table </button>
+  <button type="button" class="btn btn-outline-danger text-danger  w-100 text-center border-0  "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+  </svg> <span class="text-dark   ">Watch Video</span> </button>
+</div>
+</div>
+<div >
+  <img src="./public/img/hero-img(1).png " class=" p-5  m-lg-5 d-lg-flex justify-content-lg-end justify-content-start" width="400vw" alt="">
+</div>
+</section>
+<!-- section 2 -->
+<section >
+<div class="d-flex  justify-content-center flex-column align-content-center p-5   ">
+  <p class="fw-light  text-center">ABOUT US</p>
+ <h2 class="text-center ">LEARN MORE <span class="text-danger "> ABOUT US</span></h2>
+</div>
+
+<div class="d-flex flex-column flex-lg-row gap-3 container  ">
+
+<div class="book w-100 ">
+  <div class="book2 w-100  ">
+  <h5 >Book a Table</h5>
+  <p class="text-danger" >+1 5589 55488 55</p>
+  </div>
+</div>
+<div class="d-flex flex-column w-100  container ">
+  <p class="w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, reprehenderit.</p>
+  <p class="w-75"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all text-danger" viewBox="0 0 16 16">
+    <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z"/>
+  </svg>Lorem ipsum dolor sit amet.</p>
+  <p class="w-75 gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all text-danger" viewBox="0 0 16 16">
+    <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z"/>
+  </svg></i>Lorem ipsum dolor sit amet.</p>
+  <p class="w-75"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-all text-danger  " viewBox="0 0 16 16">
+    <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z"/>
+  </svg>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+
+  <p class="w-75">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laudantium ratione alias assumenda dolor molestias id, impedit neque aspernatur veniam tempora porro distinctio fugiat esse. Suscipit ab quia molestiae repellat. adipisicing elit. Autem a esse sapiente laboriosam sit veniam harum, cumque deleniti tenetur quia repudiandae perspiciatis omnis tempora, sint eum ipsum, at asperiores fuga.</p>
+ 
+  <div class="vide my-4">
+    <a href="" class="btn btn-outline-danger text-center border-0 rounded-circle     "><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle  " viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+    <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+  </svg></a>
+</div>
+
+</div>
+
+</div>
+
+
+
+</section>
+<!-- section 3 -->
+<section>
+<div class="bg-body-secondary d-lg-flex p-5 w-100 gap-5   h-100  ">
+
+
+  <div class="bg-danger text-white w-100 p-5 h-100 m-2 cardd ">
+
+  <h1>Why Choose Yummy</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae inventore tempora incidunt quasi obcaecati? Dignissimos fugiat repellat repudiandae, illo vel consequuntur neque delectus, aliquid vero, voluptate provident. Alias, quia ea.</p>
+  <button type="button" class="btn btn-danger  text-end border-danger-subtle rounded-pill px-3 mx-5  ">learn More </button>
+</div>
+ 
+<div class="bg-white text-dark w-100 p-4 h-25 m-2 cardd  " > 
+   <p class="rounded-circle  text-center icon  container w-25 h-25   "><i class="fa-regular fa-gem  "  style="color: #f50000; "  ></i></p>
+  <h2 class="d-flex gap-1 text-center">Corporis voluptates Officia eismod</h2>
+  <p class="d-flex gap-1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe aut, corporis beatae eveniet ut explicabo nesciunt illo enim libero dignissimos praesentium, sapiente est. Tenetur voluptatibus fuga incidunt aliquam magnam?</p>
+</div>
+
+<div class="bg-white text-dark w-100 p-4 h-25 m-2 cardd " > 
+  <p class="rounded-circle  text-center icon container w-25 h-25"><i class="fa-solid fa-calendar-day" style="color: #f50000; "   ></i></p>
+ <h2 class="d-flex gap-1 p-1 text-center">Ullamco laboeis ladore pan</h2>
+ <p class="d-flex gap-1 p-1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe aut, corporis beatae eveniet ut explicabo nesciunt illo enim libero dignissimos praesentium, sapiente est. Tenetur voluptatibus fuga incidunt aliquam magnam?</p>
+</div>
+
+<div class="bg-white text-dark w-100 p-4 h-25 m-2 cardd " > 
+  <p class="rounded-circle gap-2 text-center icon container w-25 h-75"><i class="fa-solid fa-layer-group" style="color: #f50000; " ></i></p>
+ <h2 class="d-flex gap-1 text-center">labore consequatur incidid dolore</h2>
+ <p class="d-flex gap-1  text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe aut, corporis beatae eveniet ut explicabo nesciunt illo enim libero dignissimos praesentium, sapiente est. Tenetur voluptatibus fuga incidunt aliquam magnam?</p>
+</div>
+
+</div>
+
+
+
+</section>
+<!-- section 4 -->
+<section>
+  <div class="d-lg-flex justify-content-between align-items-center bg-black opacity-75 h-75 ">
+    <div
+      class="d-lg-flex justify-content-evenly align-items-center cll h-100 w-100 bg-dark-subtle imagebg opacity-75 h-100 ">
+      <div class="d-lg-flex  p-2 ">
+       
+        <div class="p-2 ">
+          <h1 class="text-light text-center ">232</h1>
+          <p class="text-light text-center">clients</p>
+        </div>
+      </div>
+
+      <div class="d-lg-flex p-2">
+       
+        <div class="p-2">
+          <h1 class="text-light text-center">521</h1>
+          <p class="text-light text-center ">Projects</p>
+        </div>
+      </div>
+
+      <div class="d-lg-flex p-2">
+       
+        <div class="p-2">
+          <h1 class="text-light text-center">1453</h1>
+          <p class="text-light text-center ">Hours Of Support</p>
+        </div>
+      </div>
+
+      <div class="d-lg-flex p-2">
+      
+        <div class="p-2">
+          <h1 class="text-light text-center">32</h1>
+          <p class="text-light text-center">Workers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- section 3 -->
+<section>
+  <div class="d-flex  justify-content-center flex-column align-content-center p-5   ">
+    <p class="fw-light  text-center">OUR MENU</p>
+   <h2 class="text-center ">CHECK OUR <span class="text-danger "> YUMMY MENU</span></h2>
+  </div>
+  <ul class="nave  nav-tabs  d-flex justify-content-center" id="myTab" role="tablist">
+   <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Starters</button>
+    </li>
+   <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Breakfast</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Lunch</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" >Dinner</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="d-flex  justify-content-center flex-column align-content-center m-3  text-center ">
+        <p> MENU</p>
+      <h1 class="text-danger">Startes</h1>
+      </div>
+      <div class="text-center d-lg-flex justify-content-around container">
+        <div >
+          <img src="./public/img/menu/menu-item-1.png" width="200vw" alt="">
+          <h4>Magnam Tiste</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$5.95</p>
+        </div>
+        <div >
+          <img src="./public/img/menu/menu-item-2.png" width="200vw" alt="">
+          <h4>Aut Luia</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$14.95</p>
+        </div>
+
+        <div >
+          <img src="./public/img/menu/menu-item-3.png" width="200vw" alt="">
+          <h4>Est Eligendi</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$8.95</p>
+        </div>
+
+      </div>
+      <div class="text-center d-lg  d-lg-flex justify-content-around container">
+        <div >
+          <img src="./public/img/menu/menu-item-4.png" width="200vw" alt="">
+          <h4>Magnam Tiste</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$5.95</p>
+        </div>
+        <div >
+          <img src="./public/img/menu/menu-item-5.png" width="200vw" alt="">
+          <h4>Aut Luia</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$14.95</p>
+        </div>
+
+        <div >
+          <img src="./public/img/menu/menu-item-6.png" width="200vw" alt="">
+          <h4>Est Eligendi</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$8.95</p>
+        </div>
+
+      </div>
+     
+    </div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="d-flex  justify-content-center flex-column align-content-center m-3  text-center ">
+        <p> MENU</p>
+      <h1 class="text-danger">Breakfast</h1>
+      </div>
+      <div class="text-center d-lg-flex justify-content-around container">
+        <div >
+          <img src="./public/img/menu/menu-item-1.png" width="200vw" alt="">
+          <h4>Magnam Tiste</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$5.95</p>
+        </div>
+        <div >
+          <img src="./public/img/menu/menu-item-2.png" width="200vw" alt="">
+          <h4>Aut Luia</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$14.95</p>
+        </div>
+       
+  <div >
+    <img src="./public/img/menu/menu-item-3.png" width="200vw" alt="">
+    <h4>Est Eligendi</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p  class="text-danger ">$8.95</p>
+  </div>
+  
+      </div>
+      <div class="text-center d-lg-flex justify-content-around container">
+        <div >
+          <img src="./public/img/menu/menu-item-4.png" width="200vw" alt="">
+          <h4>Magnam Tiste</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$5.95</p>
+        </div>
+        <div >
+          <img src="./public/img/menu/menu-item-5.png" width="200vw" alt="">
+          <h4>Aut Luia</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$14.95</p>
+        </div>
+
+        <div >
+          <img src="./public/img/menu/menu-item-6.png" width="200vw" alt="">
+          <h4>Est Eligendi</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$8.95</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+      <div class="d-flex  justify-content-center flex-column align-content-center m-3  text-center ">
+        <p> MENU</p>
+      <h1 class="text-danger">Lunch</h1>
+      </div>
+      <div class="text-center d-lg-flex justify-content-around container">
+        <div >
+          <img src="./public/img/menu/menu-item-1.png" width="200vw" alt="">
+          <h4>Magnam Tiste</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$5.95</p>
+        </div>
+        <div >
+          <img src="./public/img/menu/menu-item-2.png" width="200vw" alt="">
+          <h4>Aut Luia</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$14.95</p>
+        </div>
+        
+  <div >
+    <img src="./public/img/menu/menu-item-3.png" width="200vw" alt="">
+    <h4>Est Eligendi</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p  class="text-danger ">$8.95</p>
+  </div>
+
+      </div>
+      <div class="text-center d-lg-flex justify-content-around container">
+        <div >
+          <img src="./public/img/menu/menu-item-4.png" width="200vw" alt="">
+          <h4>Magnam Tiste</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$5.95</p>
+        </div>
+        <div >
+          <img src="./public/img/menu/menu-item-5.png" width="200vw" alt="">
+          <h4>Aut Luia</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$14.95</p>
+        </div>
+
+        <div >
+          <img src="./public/img/menu/menu-item-6.png" width="200vw" alt="">
+          <h4>Est Eligendi</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p  class="text-danger ">$8.95</p>
+        </div>
+
+      </div>
+    </div>
+    
+
+    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0"><div class="d-flex  justify-content-center flex-column align-content-center m-3  text-center ">
+      <p> MENU</p>
+    <h1 class="text-danger">Dinner</h1>
+    </div>
+    <div class="text-center d-lg-flex justify-content-around container">
+      <div >
+        <img src="./public/img/menu/menu-item-1.png" width="200vw" alt="">
+        <h4>Magnam Tiste</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p  class="text-danger ">$5.95</p>
+      </div>
+      <div >
+        <img src="./public/img/menu/menu-item-2.png" width="200vw" alt="">
+        <h4>Aut Luia</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p  class="text-danger ">$14.95</p>
+      </div>
+
+      <div >
+        <img src="./public/img/menu/menu-item-3.png" width="200vw" alt="">
+        <h4>Est Eligendi</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p  class="text-danger ">$8.95</p>
+      </div>
+    </div>
+    <div class="text-center d-lg-flex justify-content-around container">
+      <div >
+        <img src="./public/img/menu/menu-item-4.png" width="200vw" alt="">
+        <h4>Magnam Tiste</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p  class="text-danger ">$5.95</p>
+      </div>
+      <div >
+        <img src="./public/img/menu/menu-item-5.png" width="200vw" alt="">
+        <h4>Aut Luia</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p  class="text-danger ">$14.95</p>
+      </div>
+
+      <div >
+        <img src="./public/img/menu/menu-item-6.png" width="200vw" alt="">
+        <h4>Est Eligendi</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p  class="text-danger ">$8.95</p>
+      </div>
+
+    </div>
+   </div>
+
+  
+
+
+
+
+
+  </div>
+
+</section>
+
+
+<!-- section 4 -->
+<section>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active   " aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    
+    <div class="carousel-inner   bg-dark-subtle ">
+      <div class="d-flex  justify-content-center flex-column align-content-center p-5   ">
+        <p class="fw-light  text-center">TESTIMONIALS</p>
+       <h2 class="text-center ">WHAT ARE THE  <span class="text-danger "> SAYING ABOUT</span></h2>
+      </div>
+      <div class="carousel-item active bg-dark-subtle  ">
+      
+      <div class="d-lg-flex justify-content-center container m-lg-5 gap-lg-5  ">
+        <div class="flex-column justify-content-lg-center justify-content-start  h-50 m-lg-5 p-4 container">
+        <!-- <p class="fs-1 d-flex text-danger flex">___________________ j </p> -->
+        <p class="p-1 " ><i class="fa-solid fa-quote-right fa-rotate-180" style="color: #f50505;"></i> Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis natus, dolorum quod fugit ab necessitatibus maxime aperiam itaque vero voluptates temporibus rem deserunt non nobis quisquam qui, nam exercitationem. dolor sit amet consectetur adipisicing elit. Aperiam dolor aspernatur quaerat neque odit nemo mollitia, non saepe omnis ut cumque alias autem dolorem, tempora voluptatibus fuga labore reprehenderit a. <i class="fa-solid fa-quote-right" style="color: #f50505;"></i></p>
+        <h3 >sara Wilsson</h3>
+        <p >Designe</p>
+        <p ><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+        </div>
+        <img src="./public/img/testimonials/testimonials-1.jpg" class="d-block w-75 m-5    rounded-circle "  alt="...">
+      </div>
+    </div>
+  
+      <div class="carousel-item">
+  
+    <div class="d-lg-flex justify-content-center container m-lg-5 gap-lg-5">
+      <div class="flex-column justify-content-center h-50 m-lg-5 p-4 container">
+      <!-- <p class="fs-1 d-flex text-danger flex">___________________ j </p> -->
+      <p class="p-1 " ><i class="fa-solid fa-quote-right fa-rotate-180" style="color: #f50505;"></i> Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis natus, dolorum quod fugit ab necessitatibus maxime aperiam itaque vero voluptates temporibus rem deserunt non nobis quisquam qui, nam exercitationem. dolor sit amet consectetur adipisicing elit. Aperiam dolor aspernatur quaerat neque odit nemo mollitia, non saepe omnis ut cumque alias autem dolorem, tempora voluptatibus fuga labore reprehenderit a. <i class="fa-solid fa-quote-right" style="color: #f50505;"></i></p>
+      <h3 >sara Wilsson</h3>
+      <p >Designe</p>
+      <p ><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+      </div>
+        <img src="./public/img/testimonials/testimonials-2.jpg" class="d-block w-75 m-5 rounded-circle " alt="...">
+      </div>
+      </div>
+      
+      <div class="carousel-item">
+       
+        <div class="d-lg-flex justify-content-center container m-lg-5 gap-lg-5 ">
+          <div class="flex-column justify-content-center h-50 m-lg-5 p-4 container">
+          <!-- <p class="fs-1 d-flex text-danger flex">___________________ j </p> -->
+          <p class="p-1 " ><i class="fa-solid fa-quote-right fa-rotate-180" style="color: #f50505;"></i> Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis natus, dolorum quod fugit ab necessitatibus maxime aperiam itaque vero voluptates temporibus rem deserunt non nobis quisquam qui, nam exercitationem. dolor sit amet consectetur adipisicing elit. Aperiam dolor aspernatur quaerat neque odit nemo mollitia, non saepe omnis ut cumque alias autem dolorem, tempora voluptatibus fuga labore reprehenderit a. <i class="fa-solid fa-quote-right" style="color: #f50505;"></i></p>
+          <h3 >sara Wilsson</h3>
+          <p >Designe</p>
+          <p ><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+          </div>
+        <img src="./public/img/testimonials/testimonials-3.jpg" class="d-block w-75 m-5 rounded-circle" alt="...">
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <div class="d-lg-flex justify-content-center container m-lg-5 gap-lg-5 ">
+          <div class="flex-column justify-content-center h-50 m-lg-5 p-4 container">
+          <!-- <p class="fs-1 d-flex text-danger flex">___________________ j </p> -->
+          <p class="p-1 " ><i class="fa-solid fa-quote-right fa-rotate-180" style="color: #f50505;"></i> Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis natus, dolorum quod fugit ab necessitatibus maxime aperiam itaque vero voluptates temporibus rem deserunt non nobis quisquam qui, nam exercitationem. dolor sit amet consectetur adipisicing elit. Aperiam dolor aspernatur quaerat neque odit nemo mollitia, non saepe omnis ut cumque alias autem dolorem, tempora voluptatibus fuga labore reprehenderit a. <i class="fa-solid fa-quote-right" style="color: #f50505;"></i></p>
+          <h3 >sara Wilsson</h3>
+          <p >Designe</p>
+          <p ><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+          </div>
+        <img src="./public/img/testimonials/testimonials-4.jpg" class="d-block w-75 m-5 rounded-circle" alt="...">
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+</section>
+
+<!-- section 5 -->
+<section>
+
+
+   
+
+</section>
+<!-- section 6 -->
+<section>
+<div class="d-flex flex-column gap-5 p-5  bg-body-secondary justify-content-lg-center  wrapper">
+  
+  <div class="text-center container p-4">
+    <p>CHEFS</p>
+    <h1>Our <span class="text-danger">PROFFESIONAL</span>CHEFS</h1>
+  </div>
+
+  <div class="d-lg-flex gap-4 p-2 h-100 justify-content-lg-center justify-content-evenly   ">
+    <div class="background">
+    </div>
+  <div class="carde cardd h-100 p-3 w-100" style="width: 18rem;">
+    <div class="logo">
+         <img src="./public/img/chefs/chefs-1.jpg" class=" cardd card-img-top w-100 " alt="...">
+     </div>
+    <div class="card-body bg-white ">
+      <p class="card-text text-black p-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="carde cardd h-100 p-3 w-100" style="width: 18rem;">
+    <img src="./public/img/chefs/chefs-2.jpg" class="cardd card-img-top w-100 " alt="...">
+    <div class="card-body bg-white">
+      <p class="card-text text-black p-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="carde cardd h-100  p-3 w-100" style="width: 18rem;">
+    <img src="./public/img/chefs/chefs-3.jpg" class=" cardd card-img-top w-100" alt="...">
+    <div class="card-body bg-white">
+      <p class="card-text p-4  text-black" >
+        Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+</section>
+<!-- section 7 -->
+
+<section>
+  <div class="text-center container p-4 ">
+    <p>BOOK A TABLE</p>
+    <h1>BOOK <span class="text-danger">YOUR STAY</span>WITH US</h1>
+  </div>
+  <div class="d-lg-flex container  bg-body-secondary align-items-center ">
+    
+    <img src="./public/img/reservation.jpg" width="400vw"  >
+    <div>
+      <form action="" class="container d-lg-flex justify-content-lg-center  flex-lg-column  h-100 gap-5 m-lg-5">
+        <div class="d-lg-flex gap-5 m-1 container ">
+        <input type="text" class="w-100 p-2 m-1" placeholder="Your Name">
+        <input type="text" class="w-100 p-2 m-1" placeholder="Your Email">
+        <input type="number" class="w-100 p-2 m-1" placeholder="Your phone">
+       </div>
+       <div class="d-lg-flex gap-5 m-1 container">
+        <input type="datetime" class="p-2 w-100 m-1"placeholder="Date">
+        <input type="text" class="p-2 w-100 m-1" placeholder="Time">
+        <input type="" class="p-2 w-100 m-1" placeholder="# of people">
+       </div>
+       <div class="d-flex flex-column gap-2 m-1  container">
+       <textarea name="text" id="" cols="12" rows="10" placeholder="Message"></textarea>
+        <div class="d-flex justify-content-center p-3">
+       <button type="button" class="btn btn-danger  text-end border-danger-subtle rounded-pill gap-5 w-25 text-center">Book a Table </button>
+      </div>
+       </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+</section>
+
+<!-- section 8 -->
+<section>
+
+</section>
+<!-- section 9 -->
+<section>
+
+
+</section>
+        </main>
+<footer>  
+  <div class="bg-black d-lg-flex justify-content-evenly align-content-lg-center p-5   ">
+    <div class="d-lg-flex  justify-content-center gap-2 m-1 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt text-white" viewBox="0 0 16 16">
+        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+      </svg>   
+      
+      <div class="d-lg-flex flex-column">
+      
+      <h5 class="text-white">Addres</h5>
+    
+    <p class="text-white w-75" >Lorem ipsum dolor sit amet.</p>
+  </div>
+    </div>
+
+    <div class="d-lg-flex justify-content-center gap-2 m-1 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone text-white  " viewBox="0 0 16 16">
+        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+      </svg>
+     
+      <div class="d-lg-flex flex-column">    
+      <h5 class="text-white text-center">Reservation</h5>
+    
+    <p class="text-white w-50" >Lorem ipsum dolor sit amet. +5684955</p>
+  </div>
+</div>  
+
+    <div class="d-lg-flex justify-content-center gap-2 m-1 text-center " >
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock text-white " viewBox="0 0 16 16">
+        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+      </svg>
+      <div class="d-lg-flex flex-column text-center ">
+        
+        <h5 class="text-white text-center">Opening Hours</h5>
+      
+      <p class="text-white w-100 text-center" >Lorem ipsum dolor sit amet.</p>
+    </div>
+    </div>
+
+      
+      <div class="d-lg-flex flex-column justify-content-center text-center gap-2 m-1 "> 
+        <h5 class="text-white text-center">Fllows Us</h5>
+      
+      <p class="text-white d-flex gap-2 text-center " >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook " viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </p>
+ </div>
+    
+  </div>
+
+
+
+
+
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="./public/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+    </html>
