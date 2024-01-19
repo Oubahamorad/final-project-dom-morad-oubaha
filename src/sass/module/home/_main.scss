@@ -538,6 +538,25 @@ border-left: solid red 2px h ;
   font-family: 'font';
   
 }
+.back {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  z-index: 10;
+  .top {
+      height: 100px;
+      width: 100px;
+      bottom: 40px;
+      right: 0px;
+      .scroll {
+          color:red;
+          font-size: 50px;
+          &:hover{
+              color:rgb(255, 121, 121);
+          }
+      }
+  }
+}
 
 
 
