@@ -513,20 +513,31 @@
   }
 
 .sec-7-div1{
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%) , url("./../img/events-1.jpg");
+  
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%) , url("./../img/events-1.jpg ");
 }
 
 .sec-7-div2{
+  height: 80vh;
   background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%) , url("./../img/events-2.jpg");}
 .sec-7-div3{
+  height: 80vh;
   background: linear-gradient(90deg, rgba(2, 0, 36, 0.669) 0%, rgba(47, 36, 36, 0.663) 35%) , url("./../img/events-3.jpg");}
 
 .price{
       border-bottom: 3px solid #ec2727;
       width: fit-content;
     }
+.reed{
+border-left: solid red 2px h ;
 
 
+
+}
+.font{
+  font-family: 'font';
+  
+}
 
 
 
